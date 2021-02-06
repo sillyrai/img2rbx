@@ -33,7 +33,7 @@ for i,v in pairs(Image) do -- for each pixel data in table
 		
 		Pixel.Position = UDim2.new(0,X,0,Y)
 		Pixel.BackgroundColor3 = Color3.fromRGB(R,G,B)
-		index = index + 5 --  add 5, cause there are 5 objects for each pixel, x y and r g b, due to an idea I have, it could soon be 3, by using UIGridLayout, so I'd be completely able to ditch getting the pixel size, only the initial one
+		index = index + 5 --  add 5, cause there are 5 objects for each pixel, x y and r g b, due to an idea I have, it could soon be 3, by using UIGridLayout, so I'd be completely able to ditch getting the pixel position, only the initial one
 		
 		warn("X:" ..X .." Y:" ..Y .." R:" ..R .." G:" ..G .." B:" ..B)
 	
